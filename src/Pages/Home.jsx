@@ -1,5 +1,6 @@
 import { AboutSection } from "../Componet/AboutSection";
 import { ContactSection } from "../Componet/ContactSection";
+import { Footer } from "../Componet/Footer";
 import { HeroSection } from "../Componet/HeroSection";
 import { Navbar } from "../Componet/Navbar";
 import { ProjectSection } from "../Componet/ProjectSection";
@@ -32,6 +33,7 @@ export const Home = () => {
       </main>
 
       { /* Footer */}
+      <Footer/>
     </div>
   );
 };

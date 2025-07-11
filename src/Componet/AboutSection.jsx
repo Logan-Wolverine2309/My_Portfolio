@@ -29,13 +29,18 @@ export const AboutSection = () => {
                             I am dedicated to delivering high-quality code and exceptional user experiences.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                            <a href="contact" className="cosmic-button">
+                            <a href="/contact" className="cosmic-button">
                                 Get in Touch
                             </a>
 
-                            <a href="" className="px-6 py-3  rounded-full border border-primary text-primary  hover:bg-primary/10 transition-colors duration-300">
+                            <a
+                                href="/Jit_CV.pdf"
+                                download
+                                rel="noopener noreferrer"
+                                className="px-6 py-3 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                                >
                                 Download CV
-                            </a>
+                                </a>
                         </div>
                     </div>
 
