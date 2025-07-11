@@ -30,10 +30,10 @@ export const Home = () => {
         <SkillSection />
         <ProjectSection />
         <ContactSection />
+        <Footer />
       </main>
 
       { /* Footer */}
-      <Footer/>
     </div>
   );
 };
