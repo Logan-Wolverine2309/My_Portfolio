@@ -12,21 +12,15 @@ const skills = [
 
     // Web Backend Skills
     { name: "Node.js", level: 70, category: "backend", system: "web" },
-    { name: "Firebase", level: 65, category: "backend", system: "web" },
+    
 
     // Database Skills
     { name: "MongoDB", level: 70, category: "database", system: "web" },
-    { name: "MySQL", level: 65, category: "database", system: "web" },
     { name: "PostgreSQL", level: 60, category: "database", system: "web" },
-
-    // Containerization/DevOps
-    { name: "Docker", level: 55, category: "development tools", system: "devops" },
 
     // Design
     { name: "UI/UX Design", level: 70, category: "design", system: "web" },
 
-    // CMS
-    { name: "Content Management Systems", level: 65, category: "development tools", system: "web" },
 
     // Development Tools
     { name: "VS Code", level: 80, category: "development tools", system: "general" },
